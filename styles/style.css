@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: Arial;
+    src: url("../fonts/ofont.ru_Arial.ttf");
+}
+
+@font-face {
+    font-family: ArialBold;
+    src: url("../fonts/arial-bold_tt.ttf");
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+input, button {
+    font-family: inherit !important;
+}
+
+h1, h2, .card span {
+    font-family: ArialBold, sans-serif;
+}
+
+.ui-accordion .ui-accordion-header {
+    background-color: #076BFF;
+    color: white;
+    margin: 16px 0 0 0;
+    border-radius: 10px;
+    padding: 25px 0;
+}
+
+.hvr-shutter-out-horizontal {
+    background-color: #076BFF;
+}
+
+h3 {
+    position: relative;
+}
+
+.ui-icon, .ui-widget-content .ui-icon {
+    background-image: url("../images/next 3.png") !important;
+    position: absolute;
+    right: 25px;
+    background-position: -2px 0;
+}
+
+.ui-accordion-header-active span {
+    transform: rotate(180deg);
+}
+
+.slick-prev, .slick-next {
+    color: #076BFF;
+    background-color: #076BFF;
+    z-index: 1;
+    border-radius: 50%;
+    border-left: 1px solid #076BFF;
+}
+
+.slick-prev {
+    left: 25px;
+}
+
+.slick-next {
+    right: 25px;
+}
+
+.slick-prev, .slick-next {
+    background-color: #076BFF;
+    height: 40px;
+    width: 40px;
+}
+
+.slick-prev:before, .slick-next:before {
+    background: #076BFF;
+    border: 0;
+    height: 20px !important;
+    width: 0;
+    border-radius: 50%;
+    top: 2px;
+    position: absolute;
+    left: -1px;
+    opacity: 1.75;
+    font-size: 41px;
+}
+
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    color: #076BFF;
+    outline: none;
+    background: #076BFF;
+}
+
+button:focus:not(:focus-visible) {
+    background: #076BFF;
+    opacity: 1.75;
+}
+
+.single-item img {
+    width: 100% !important;
+}

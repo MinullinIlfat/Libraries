@@ -1,0 +1,8 @@
+@media screen and (max-width: 992px) {
+    #address-input, #country-input, #index-input{
+        width: auto !important;
+    }
+    .form {
+        text-align: center;
+    }
+}
