@@ -1,2 +1,2 @@
 # Libraries
-https://minullinilfat.github.io/libraries/
+https://minullinilfat.github.io/Libraries/
